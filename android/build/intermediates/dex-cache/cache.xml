@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-3e171d5b3d1a8235274a4de4c31cd46f1900cd9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-4a9f239d69fc28ce2e51da5803143ae39d3f25f9.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-SinaWeibo-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="7d038932c1902316f542e2ca7b7d73c16265185a">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.7.2-635a696f14577d2b67a04cf4311f440e50fea1b9.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Tumblr-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="5ffa334d3f5982b9cc3a6b56b97a3debf5c56bb0">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Tumblr-2.7.2-1e1ac6f7c9011fac94c22fc3b65cdb3003dded26.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-11224c160cf723367cd23df921b9dc104271d38c.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-13390ff173863a65f9fe7926266ac76a6e4b86c5.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Core-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="484d87cb8abd3c6d05eeca5abfac1cdd1aa1dc2e">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.7.2-23ba0318e7cb4eb6044bd3e55ed72cf41ade814b.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Wechat-Moments-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e77e9127a0d9dadf0cf4963f14a6449a4e1dbe37">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.7.2-39b830e6e7b2e63b7b6c844daf699a5ed4054d25.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Yixin-Moments-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="742593044c8a498ba60874d01d108d1f5f17fc35">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Yixin-Moments-2.7.2-3908ebe88f34836d07138bd8fcdbdc0e1942b4dd.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Yixin-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="69250b63cfbb45106d837c1ac4ed5f29d126443e">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Yixin-2.7.2-f43491deb4226b55ff39827bb7e10882306dd796.jar" />
+    </item>
+    <item
+        jar="D:\Android eclipse\SDk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-f9417011b579574b7a8da47ec0c5b145a08d5a38.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Email-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0372364f0f21bcba6f5113d2ecd14f286ae21a2c">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Email-2.7.2-f8b598001cd31c472415023a0d43f8397c29c58c.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Alipay-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6bc02c47d0befd2861eeddce93a951f3f7b09bb6">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Alipay-2.7.2-f10517fa598cfae9a0b06ea2f435ec05069f0caa.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-60640e9100ca310b2281eb2a95cda688eeda4db9.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-72a4c90f120f236f40780919a4a5960ddf3caf1d.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Dropbox-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="bd1c3d552849fc25a28478f8a2749b163e08ed90">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Dropbox-2.7.2-82ddae5b7511f6a04cd7db24511dc40cb536f34c.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-WhatsApp-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ac2a1bc9c83ebe7ed523844a53c3937b7df74c64">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-WhatsApp-2.7.2-03af3e14512d0ae72d2a63a88314cc8312e2a29a.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-ShortMessage-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ab3c5ecdf37204d0466bdb15668753362618f861">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.7.2-72008ce73ec0eeb6675ed8e8f71d557cd8b04838.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Evernote-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0a81c601520e0babe5923b96854cfc4e7ae1369f">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Evernote-2.7.2-82dad235815be409dd0a14d0e6592dafcf9ba2b4.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-VKontakte-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0c40329fec5df630e44e97266f4eb283af8946d2">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-VKontakte-2.7.2-bdb87e3b3fba6312b1ab48e8ad87c96501620230.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\MobCommons-2016.0426.1819.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="5fce3a96cadb15dd2980863f403d7d1ab8732989">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\MobCommons-2016.0426.1819-d59d0a3302757729c98aeaa979151033737a3c8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-e463fc08b9113a9ff7772cc4b3ab03138842a72c.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Wechat-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6d87b1916e872678665a0d06c873c7712ed91457">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.7.2-9108e146a0a3eae18e833d11366bcfa3eef77d46.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\okio-1.6.0-646922d64b062beae961bfa0d80e1324d013e0ba.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-e0ba898026cb50b2a8d86dcd213d57019e1ad1a6.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.26.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8a5b02b22cd03cf38474f894690ca5d5396b698f">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-96f4a2c09f5c943ab11c0484fa13dbae2d921146.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-1c78aae5c18adfea9de20995c009e8b11172326a.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Wechat-Favorite-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d195548d5cba02c925eb418118ac129322e209dd">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.7.2-3c276731d7b51668a0bedfcfa397e84ade53c31a.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-8b8d8fc8ac4688a3a7f5478015a24f4e3de9669f.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Wechat-Core-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8d2e75c7f5b644b69198a6c89deffab067fa5e88">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.7.2-ba341cde3254c3634ab7f2a2fff513534ec7fd3b.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Douban-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6797f5de562d6dee4ca3de97ea10b03dbac1fa03">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Douban-2.7.2-04ddf5028262600f969b7a730057f650249c684b.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-b2b90d416f69bd88fbc99fcc125143202f126bde.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-81def5be8f98829a976ffd971e77cb0d5616f730.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-QZone-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ab780cc4d045859b20a2177b7045e6ac6ec44be3">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.7.2-ced5c6f8d22db4e815e9dc3aba6317917a8f4504.jar" />
+    </item>
+    <item
+        jar="C:\Users\jychen\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-fead8bd373653a056fe61bb443123154ebc70631.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-QQ-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c3717539454ca4b61bf8323a6f307c248a1bd0ef">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.7.2-82015367028943177821db434d0de1b964bf3791.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\MobTools-2016.0426.1819.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e2c5ab92b762c42cd30e6787cc401ae01e002512">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\MobTools-2016.0426.1819-8cb4647e5b56bb49547591f73e88d812597bc32b.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.26.3\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b48c2ceb4b4563dfe99b5ac7638b15d4052e45fb">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-3a14461457bcc41b5449479ea5cc12018c2b91cb.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\SMSSDK-2.0.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d06f7ca553bedcbbc7b6a9b5be1c6f2503dc5064">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\SMSSDK-2.0.2-c2096a9c076f20ffae9e3447d8e2950b596c91e6.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-YouDao-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="56e62a270bf1a8b2f3830b2e58debd0ac8dda642">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-YouDao-2.7.2-10d70cb139ad133fba915a3064f6e072c4042d94.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-2145e65fe54814845ed7f8eaeb2301f39a32074e.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\libs\ShareSDK-Yixin-Core-2.7.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="11da8be2a263639a0785d179bdda5bab95ce2b05">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\ShareSDK-Yixin-Core-2.7.2-90e9dc875341524ae88185dcd235c1dd6d1f35d3.jar" />
+    </item>
+    <item
+        jar="E:\React Native\project\FristRNProject\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\React Native\project\FristRNProject\android\app\build\intermediates\pre-dexed\debug\classes-9cdb340fb2a857d9fe40e9f28f6444634d981dfb.jar" />
+    </item>
+
+</items>

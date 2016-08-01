@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FristRNProject</string>
+    <string name="no_contacts_permission">没有获取通讯录的权限</string>
+</resources>

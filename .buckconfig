@@ -1,0 +1,6 @@
+
+[android]
+  target = Google Inc.:Google APIs:22
+
+[maven_repositories]
+  central = https://repo1.maven.org/maven2

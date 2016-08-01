@@ -61,6 +61,8 @@ import com.android.build.OutputFile
 
 apply from: "../../node_modules/react-native/react.gradle"
 
+//apply from: "E:/React Native/project/FristRNProject/node_modules/react-native/react.gradle"
+
 /**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices
@@ -81,7 +83,7 @@ android {
     buildToolsVersion "22"
 
     defaultConfig {
-        applicationId "com.fristrnproject"
+        applicationId "com.sharesdk.rn"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1

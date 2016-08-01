@@ -214,4 +214,4 @@ const styles = StyleSheet.create({
     },
 });
 
-AppRegistry.registerComponent('FristRNProject', () => FristRNProject);
+AppRegistry.registerComponent('ShareSDKRN', () => FristRNProject);

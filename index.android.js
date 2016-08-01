@@ -183,7 +183,6 @@ class FristRNProject extends React.Component {
     }
 
     test(){
-        console.log("测试信息");
         console.log("测试值：" + PlatformID.QQFriend);
     }
 

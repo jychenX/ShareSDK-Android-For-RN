@@ -57,11 +57,13 @@ import com.android.build.OutputFile
  *   // for example, you might want to remove it from here.
  *   inputExcludes: ["android/**", "ios/**"]
  * ]
- */
+ *
 
-apply from: "../../node_modules/react-native/react.gradle"
+//apply from: "../../node_modules/react-native/react.gradle"
 
-//apply from: "E:/React Native/project/FristRNProject/node_modules/react-native/react.gradle"
+apply from: "react.gradle"
+
+//apply from: "E:/React Native/project/ShareSDKRN/node_modules/react-native/react.gradle"
 
 /**
  * Set this to true to create two separate APKs instead of one:

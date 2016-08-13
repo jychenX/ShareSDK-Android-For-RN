@@ -1,15 +1,24 @@
 package com.sharesdk.rn;
 
+import android.os.Handler;
+import android.telecom.Call;
 import android.text.TextUtils;
+import android.webkit.JavascriptInterface;
 
+import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.WritableMap;
 import com.mob.tools.utils.Hashon;
 import android.os.Bundle;
-import android.os.Handler.Callback;
+import android.os.Handler;
 import com.mob.tools.utils.UIHandler;
 import android.os.Message;
+import android.widget.Toast;
+
 import java.util.HashMap;
 import java.util.Map.Entry;
 import cn.sharesdk.framework.Platform;
@@ -21,7 +30,7 @@ import cn.sharesdk.onekeyshare.ShareContentCustomizeCallback;
 /**
  * Created by jychen on 2016/6/14.
  */
-public class ShareSDKUtils extends ReactContextBaseJavaModule implements Callback {
+public class ShareSDKUtils extends ReactContextBaseJavaModule implements Handler.Callback {
 
     private ReactApplicationContext context;
     private static boolean DEBUG = true;
@@ -97,24 +106,36 @@ public class ShareSDKUtils extends ReactContextBaseJavaModule implements Callbac
     }
 
     @ReactMethod
-    public boolean isAuthValid(int platform) {
+    public void isAuthValid(int platform, Callback isAuth) {
         if (DEBUG) {
             System.out.println("ShareSDKUtils.isAuthValid");
         }
         String name = ShareSDK.platformIdToName(platform);
         Platform plat = ShareSDK.getPlatform(name);
-        return plat.isAuthValid();
+        Toast.makeText(context, String.valueOf(plat.isAuthValid()), Toast.LENGTH_LONG).show();
+        if(plat.isAuthValid()){
+            isAuth.invoke(true);
+        }else{
+            isAuth.invoke(false);
+        }
     }
 
     @ReactMethod
-    public boolean isClientValid(int platform) {
+    @JavascriptInterface
+    public void isClientValid(int platform, Callback isClient) {
         if (DEBUG) {
             System.out.println("ShareSDKUtils.isClientValid");
         }
         String name = ShareSDK.platformIdToName(platform);
         Platform plat = ShareSDK.getPlatform(name);
-        return plat.isClientValid();
+        Toast.makeText(context, String.valueOf(plat.isClientValid()), Toast.LENGTH_LONG).show();
+        if(plat.isClientValid()){
+            isClient.invoke(true);
+        }else{
+            isClient.invoke(false);
+        }
     }
+
 
     @ReactMethod
     public void showUser(int platform) {
@@ -180,7 +201,8 @@ public class ShareSDKUtils extends ReactContextBaseJavaModule implements Callbac
     }
 
     @ReactMethod
-    public String getAuthInfo(int platform) {
+    @JavascriptInterface
+    public void getAuthInfo(int platform, Promise authInfo) {
         if (DEBUG) {
             System.out.println("ShareSDKUtils.getAuthInfo");
         }
@@ -188,19 +210,20 @@ public class ShareSDKUtils extends ReactContextBaseJavaModule implements Callbac
         String name = ShareSDK.platformIdToName(platform);
         Platform plat = ShareSDK.getPlatform(name);
         Hashon hashon = new Hashon();
-        HashMap<String, Object> map = new HashMap<String, Object>();
+        WritableMap map = Arguments.createMap();
         if(plat.isAuthValid()){
-            map.put("expiresIn", plat.getDb().getExpiresIn());
-            map.put("expiresTime", plat.getDb().getExpiresTime());
-            map.put("token", plat.getDb().getToken());
-            map.put("tokenSecret", plat.getDb().getTokenSecret());
-            map.put("userGender", plat.getDb().getUserGender());
-            map.put("userID", plat.getDb().getUserId());
-            map.put("openID", plat.getDb().get("openid"));
-            map.put("userName", plat.getDb().getUserName());
-            map.put("userIcon", plat.getDb().getUserIcon());
+            map.putDouble("expiresIn", plat.getDb().getExpiresIn());
+            map.putDouble("expiresTime", plat.getDb().getExpiresTime());
+            map.putString("token", plat.getDb().getToken());
+            map.putString("tokenSecret", plat.getDb().getTokenSecret());
+            map.putString("userGender", plat.getDb().getUserGender());
+            map.putString("userID", plat.getDb().getUserId());
+            map.putString("openID", plat.getDb().get("openid"));
+            map.putString("userName", plat.getDb().getUserName());
+            map.putString("userIcon", plat.getDb().getUserIcon());
         }
-        return hashon.fromHashMap(map);
+        System.out.println(map.toString());
+        authInfo.resolve(map);
     }
 
     @ReactMethod

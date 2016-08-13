@@ -24,7 +24,6 @@ public class RNPlatformListener extends ReactContextBaseJavaModule implements Pl
     }
 
     public void onComplete(Platform platform, int i, HashMap<String, Object> hashMap) {
-        System.out.println("成功"+hashMap.toString());
         //发送事件给javascript层
         WritableMap params = Arguments.createMap();
         params.putInt("platfromID", ShareSDK.platformNameToId(platform.getName()));
@@ -39,7 +38,6 @@ public class RNPlatformListener extends ReactContextBaseJavaModule implements Pl
 
     @Override
     public void onError(Platform platform, int i, Throwable throwable) {
-        System.out.println("失败"+throwable.toString());
         //发送事件给javascript层
         WritableMap params = Arguments.createMap();
         params.putInt("platfromID", ShareSDK.platformNameToId(platform.getName()));
@@ -52,7 +50,6 @@ public class RNPlatformListener extends ReactContextBaseJavaModule implements Pl
 
     @Override
     public void onCancel(Platform platform, int i) {
-        System.out.println("取消");
         //发送事件给javascript层
         WritableMap params = Arguments.createMap();
         params.putInt("platfromID", ShareSDK.platformNameToId(platform.getName()));

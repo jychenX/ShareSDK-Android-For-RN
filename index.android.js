@@ -124,32 +124,26 @@ class FristRNProject extends React.Component {
 
         var listent = DeviceEventEmitter.addListener('OnError',(e)=>{
             console.log(e);
-            listent.remove();
+            listent.remove()
         });
 
         var listent = DeviceEventEmitter.addListener('OnCancel',(e)=>{
             console.log(e);
-            listent.remove();
-        });
+            //listent.remove()
+        })
     }
 
     isAuthValid(){
-        var log = javaShare.isAuthValid(PlatformID.QQFriend);
-        console.log("if授权" + log);
-        if(javaShare.isAuthValid(PlatformID.QQFriend)){
-            console.log("已经授权");
-        }else{
-            console.log("还未授权");
-        }
+		javaShare.isAuthValid(PlatformID.QQFriend, 
+							(msg)=>{
+								console.log("是否已经授权"+msg);
+							});
     }
     isClientValid(){
-        var logc = javaShare.isClientValid(PlatformID.QQFriend);
-        console.log("if客户端" + logc);
-        if(javaShare.isClientValid(PlatformID.QQFriend)){
-            console.log("已经安装客户端");
-        }else{
-            console.log("还未安装客户端");
-        }
+        javaShare.isClientValid(PlatformID.QQFriend,
+								(msg)=>{
+									console.log("是否安装客户端"+msg);
+								});
     }
 
     shareContent(){
@@ -178,8 +172,21 @@ class FristRNProject extends React.Component {
     }
 
     getAuthInfo(){
-        var userInfo = javaShare.getAuthInfo(PlatformID.QQFriend);
-        console.log("用户信息：" + userInfo);
+        javaShare.getAuthInfo(PlatformID.QQFriend)
+							.then((map)=>{
+								console.log("用户信息：" + 
+									"\n expiresIn:"+map['expiresIn']+
+									"\n expiresTime:"+map['expiresTime']+
+									"\n token:"+map['token']+
+									"\n tokenSecret:"+map['tokenSecret']+
+									"\n userGender:"+map['userGender']+
+									"\n userID:"+map['userID']+
+									"\n openID:"+map['openID']+
+									"\n userName:"+map['userName']+
+									"\n userIcon:"+map['userIcon']);
+							},(code,message)=>{
+								console.log("错误信息：" + code + message);
+							});
     }
 
     test(){

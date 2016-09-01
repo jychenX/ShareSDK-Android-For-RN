@@ -33,7 +33,7 @@ public class RNPlatformListener extends ReactContextBaseJavaModule implements Pl
             params.putString("DATA",hashMap.toString());
         }
         reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit("OnComplete", params);//对应的javascript层的事件名为logInConsole，注册该事件即可进行回调
+                .emit("OnComplete", params);
     }
 
     @Override

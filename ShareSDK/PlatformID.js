@@ -44,6 +44,8 @@ var PlatformID = {
     KakaoStory      : 45,   // KakaoStory
     FacebookMessenger: 46,   // FacebookMessenger
     AliPaySocial    : 50,   // 支付宝好友
+    
+    //Platform in IOS
     YiXin           : 994,  // 易信系列
     Kakao           : 995,  // KaKao
     Evernote        : 996,  // 印象笔记

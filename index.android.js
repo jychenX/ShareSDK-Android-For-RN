@@ -153,7 +153,7 @@ class FristRNProject extends React.Component {
             url: 'http://www.mob.com',
             title: '分享标题',
             titleUrl: 'http;//www.baidu.com',
-			"type": ContentType.WebPage
+	    "type": ContentType.WebPage
         };
         var params = JSON.stringify(shareContent);
         javaShare.shareContent(PlatformID.QQFriend, params);

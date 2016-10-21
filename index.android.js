@@ -152,7 +152,7 @@ class FristRNProject extends React.Component {
             imageUrl: 'http://mbiadmin.lianzhong.com/Images/jjerdy/captureScreen.png',
             url: 'http://www.mob.com',
             title: '分享标题',
-            titleurl: 'http;//www.baidu.com',
+            titleUrl: 'http;//www.baidu.com',
 			"type": ContentType.WebPage
         };
         var params = JSON.stringify(shareContent);
@@ -165,7 +165,7 @@ class FristRNProject extends React.Component {
             imageUrl: 'http://mbiadmin.lianzhong.com/Images/jjerdy/captureScreen.png',
             url: 'http://www.mob.com',
             title: '分享标题',
-            titleurl: 'http;//www.baidu.com'
+            titleUrl: 'http;//www.baidu.com'
         };
         var params = JSON.stringify(shareContent);
         javaShare.onekeyShare(0, params);

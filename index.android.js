@@ -149,7 +149,7 @@ class FristRNProject extends React.Component {
     shareContent(){
         var shareContent = {
             text: '分享内容',
-            imageUrl: 'http://mbiadmin.lianzhong.com/Images/jjerdy/captureScreen.png',
+            imageUrl: 'http://99touxiang.com/public/upload/nvsheng/125/27-011820_433.jpg',
             url: 'http://www.mob.com',
             title: '分享标题',
             titleUrl: 'http;//www.baidu.com',
@@ -162,7 +162,7 @@ class FristRNProject extends React.Component {
     onekeyShare(){
         var shareContent = {
             text: '分享内容',
-            imageUrl: 'http://mbiadmin.lianzhong.com/Images/jjerdy/captureScreen.png',
+            imageUrl: 'http://99touxiang.com/public/upload/nvsheng/125/27-011820_433.jpg',
             url: 'http://www.mob.com',
             title: '分享标题',
             titleUrl: 'http;//www.baidu.com'

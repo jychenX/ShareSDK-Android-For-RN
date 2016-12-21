@@ -85,7 +85,7 @@ android {
     buildToolsVersion "22"
 
     defaultConfig {
-        applicationId "com.sharesdk.rn"
+        applicationId "cn.sharesdk.demo"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1

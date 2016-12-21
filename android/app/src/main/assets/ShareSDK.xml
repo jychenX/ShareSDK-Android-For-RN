@@ -53,15 +53,15 @@
     -->
     
     <ShareSDK 
-        AppKey = "24a868063178"/> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+        AppKey = "androidv1101"/> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
     
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
     <SinaWeibo
         Id="1"
         SortId="1"
-        AppKey="3091958638"
-        AppSecret="6f7abab972f20017c22124cf54cbbe94"
-        RedirectUrl="http://weibo.com"
+        AppKey="568898243"
+        AppSecret="38a4f8204cc784f81f9f0daaf31e02e3"
+        RedirectUrl="http://www.sharesdk.cn"
         ShareByAppClient="true"
         Enable="true" />
 
@@ -72,14 +72,12 @@
         AppSecret="ae36f4ee3946e1cbb98d6965b0b2ff5c"
         RedirectUri="http://sharesdk.cn"
         Enable="true" />
-
-    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    
     <QZone
         Id="3"
         SortId="3"
         AppId="100371282"
         AppKey="aed9b0303e3ed1e27bae87c33761161d"
-        ShareByAppClient="true"
         Enable="true" />
     
     <!-- 
@@ -97,24 +95,24 @@
     <Wechat
         Id="4"
         SortId="4"
-        AppId="wxaa422b828b3617eb"
-        AppSecret="875021a7d9458d65d573648bd1e3ce35"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
         BypassApproval="false"
         Enable="true" />
     
     <WechatMoments
         Id="5"
         SortId="5"
-        AppId="wxaa422b828b3617eb"
-        AppSecret="875021a7d9458d65d573648bd1e3ce35"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
         BypassApproval="false"
         Enable="true" />
         
 	<WechatFavorite
         Id="6"
         SortId="6"
-        AppId="wxaa422b828b3617eb"
-        AppSecret="875021a7d9458d65d573648bd1e3ce35"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
         Enable="true" />
     
 	<!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
@@ -129,9 +127,9 @@
     <Facebook
         Id="8"
         SortId="8"
-        ConsumerKey="591165114379793"
-        ConsumerSecret="2202cc6ee583beade90f7a3a1ccabf18"
-        RedirectUrl="http://www.52hrtt.com/"
+        ConsumerKey="107704292745179"
+        ConsumerSecret="38053202e1a5fe26c80c753071f0b573"
+        RedirectUrl="http://mob.com"
         Enable="true" />
 
     <Twitter
